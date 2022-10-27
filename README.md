@@ -102,7 +102,7 @@ with DAG(
 ```
 You can check the Loved Brands [DAG](https://github.com/deliveryhero/datahub-airflow/blob/main/dags/log/loved_brands_automation/loved_brands_full_dag.py) to see how the rest of the configurations are imported. The process is identical to what is shown above.
 
-## Linting
+## Linting and checking your code for errors
 After you place all your SQL and Python files in the right place and create your DAG, you will need to run some commands in the terminal so that the scripts **pass the automatic checks** that are run after you push your code to GitHub.
 
 - In your terminal, run the following command after activating the virtual environment of your project
@@ -172,7 +172,7 @@ To integrate Slack alerts in your DAG so that you can be notified whenever a DAG
 - In ```datahub-airflow\dags\log\configuration\yaml\config.yaml```, add the **name of the team** and their **Slack IDs**
 
 ![image](https://user-images.githubusercontent.com/98691360/196412361-81f4b764-4423-42fe-bc26-75d724e4c2e3.png)
-- **Create a new channel** in Slack to send the alerts to and **enter its name** in ```datahub-airflow\dags\log\configuration\yaml\config_production.yaml```
+- **Create a new channel** in Slack to send the alerts to and **enter its name** in ```datahub-airflow\dags\log\configuration\yaml\config_production.yaml```. The channel used by the Global Pricing team is called [#log-alerts-global-pricing](https://deliveryhero.slack.com/archives/C046DARA0CX)
 
 ![image](https://user-images.githubusercontent.com/98691360/196412706-8455d8b1-4094-47e5-be45-ff2b4bff7271.png)
 - Add the **GDF Monitoring** bot to the channel
