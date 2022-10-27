@@ -11,6 +11,7 @@ To start using Airflow at Delivery Hero, you need to obtain 'Edit' access to:
 2. The **Airflow instance** that belongs to your business unit (e.g., [marketing](https://airflow-mkt.datahub.deliveryhero.net/home), [logistics](https://airflow-log.datahub.deliveryhero.net/home), etc.)
     - To get access to your business unit's Airflow instance, you need to submit a request to **designated person** or in the respective **data engineering channel**.
     - **Logistics** --> [#log-data-engineering](https://deliveryhero.slack.com/archives/CCTGZJAM8). Use the **"Shortcut"** function to submit a support request similar to the one shown below.
+    
     ![image](https://user-images.githubusercontent.com/98691360/196386129-332db5ab-2954-4405-97e4-1535b2bda58c.png)
     - **Marketing** --> #mkt-data-eng
       - Keep in mind that this channel is private, so you will need to be invited to it. Contact @Sarmad Ahmed on Slack to get added
