@@ -13,9 +13,8 @@ To start using Airflow at Delivery Hero, you need to obtain 'Edit' access to:
     - **Logistics** --> [#log-data-engineering](https://deliveryhero.slack.com/archives/CCTGZJAM8). Use the **"Shortcut"** function to submit a support request similar to the one shown below.
     
     ![image](https://user-images.githubusercontent.com/98691360/196386129-332db5ab-2954-4405-97e4-1535b2bda58c.png)
-    - **Marketing** --> #mkt-data-eng
-      - Keep in mind that this channel is private, so you will need to be invited to it. Contact @Sarmad Ahmed on Slack to get added
-      - If this doesn't work, you can contact @Ersin Ihsan Ünkar or one of his direct reports
+    - **Marketing** --> [#mkt-tech-bi-analytics](https://deliveryhero.slack.com/archives/G01P7DC5SM6)
+      - POC: @Ersin Ihsan Ünkar (Data Engineering Manager) or @Sarmad Ahmed (PM)
 
 # Cloning the datahub-airflow repo
 You need to clone the datahub-airflow repo to be able to commit to it. Follow the instructions below to interact with the repo correctly.
